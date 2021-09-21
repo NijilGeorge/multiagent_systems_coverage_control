@@ -148,7 +148,7 @@ end
 Prev_Px=Px;
 Prev_Py=Py;
 
-%%%%%%%%%%%%%%%%%%%%%%%% VISUALIZATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%visualization
 if showPlot
     verCellHandle = zeros(n,1);
     cellColors = cool(n);
@@ -166,7 +166,7 @@ if showPlot
     currHandle = plot(Px,Py,'o','linewidth',2);
     titleHandle = title(['o = Robots, + = Goals, Iteration ', num2str(0)]);
 end
-%%%%%%%%%%%%%%%%%%%%%%%% END VISUALIZATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%end visualization
 % Iteratively Apply LLYOD's Algorithm
 for counter = 1:numIterations
     sensing=zeros(size(M));
