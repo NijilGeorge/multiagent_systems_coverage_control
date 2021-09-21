@@ -1,3 +1,5 @@
+%Inspired by http://www.mathworks.com/matlabcentral/fileexchange/34428-voronoilimit
+% and https://www.mathworks.com/matlabcentral/fileexchange/41507-lloydsalgorithm-px-py-crs-numiterations-showplot
 clear;
 clc;
 close all;
